@@ -37,12 +37,16 @@ p{
 .all-button{
     text-decoration:none;
     padding:25px 30px;
-    background-color: #2fe7b9d8;
+    background-color:#05d8a3 ;
     color:#fff;
     border-radius:5px;
     font-weight:500;
     font-size:24px;
     
+}
+.all-button:hover{
+    color:#1e2024d3;
+    background-color: #2fe7b9d8;
 }
 
 li{
@@ -125,11 +129,14 @@ hr{
 .helping-area{
     display: flex;
     margin-left:5%;
+    height:700px;
     
 }
 .contribute{
     width:35%;
     padding-left:7%;
+   
+
 }
 .contribute img{
     height:65%;
@@ -139,10 +146,40 @@ hr{
 }
 .contribute h2{
     text-align: left;
+    margin:0px;
+}
+.again{
+
 }
 .fixed{
     text-align:left;
 }
+.email-area{
+    text-align: center;
+}
+form{
 
+    background-color:rgba(255, 225, 197, 0.664);
+    padding: 110px;
+    margin: 0 400px;
+}
+.email-area form input[type="submit"]{
+    font-size: 17px;
+    padding:10px 20px;
+    font-weight:bold;
+    color:white;
+    background-color:#2fe7b9;
+    border:none;
+    border-radius: 0 5px 5px 0;
+    margin-left:-4px;
+}
+.email-area form input[type="email"] {
+    padding:12.5px 20px;
+    border:none;
+    border-radius: 5px 0 0 5px;
+    background-color:rgba(160, 150, 150, 0.507)
+}
+.update-area{
 
-
+    padding-top: -20px;
+}
