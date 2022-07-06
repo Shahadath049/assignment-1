@@ -79,7 +79,7 @@ li:hover{
    
 }
 h2{
-    font-size: 65px;
+    font-size: 55px;
     font-weight:bolder;
     text-align: center;
 }
@@ -114,8 +114,7 @@ hr{
     height:15%;
 }
 #item-one{
-    background-color:rgba(226, 208, 208, 0.842);
-    
+    background-color:rgba(226, 208, 208, 0.842); 
 }
 #item-two{
     background-color:antiquewhite;
@@ -123,3 +122,27 @@ hr{
 #item-three{
     background-color: rgba(127, 255, 212, 0.514);
 }
+.helping-area{
+    display: flex;
+    margin-left:5%;
+    
+}
+.contribute{
+    width:35%;
+    padding-left:7%;
+}
+.contribute img{
+    height:65%;
+    width:100%;
+    padding:0;
+    border-radius: 10px;
+}
+.contribute h2{
+    text-align: left;
+}
+.fixed{
+    text-align:left;
+}
+
+
+
